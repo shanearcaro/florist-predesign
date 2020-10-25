@@ -150,11 +150,11 @@ let accounts = [];
 
 function createBlankAccounts() {
     accounts.push(new Account(["Shane", "Arcaro", "Passwor0", "00000000", "2015555589", "email@email.com", true]));
-    accounts.push(new Account(["John",  "Smith",  "Password0", "11111111", "2015555589", "email@email.com", true]));
-    accounts.push(new Account(["Jane",  "Doe",    "Password0", "22222222", "2015555589", "email@email.com", true]));
-    accounts.push(new Account(["Tom",   "Shelby", "Password0", "33333333", "2015555589", "email@email.com", true]));
-    accounts.push(new Account(["John",  "Shelby", "Password0", "44444444", "2015555589", "email@email.com", true]));
-    accounts.push(new Account(["Peter", "Pan",    "Password0", "55555555", "2015555589", "email@email.com", true]));
+    accounts.push(new Account(["John",  "Smith",  "Passwor0", "11111111", "2015555589", "email@email.com", true]));
+    accounts.push(new Account(["Jane",  "Doe",    "Passwor0", "22222222", "2015555589", "email@email.com", true]));
+    accounts.push(new Account(["Tom",   "Shelby", "Passwor0", "33333333", "2015555589", "email@email.com", true]));
+    accounts.push(new Account(["John",  "Shelby", "Passwor0", "44444444", "2015555589", "email@email.com", true]));
+    accounts.push(new Account(["Peter", "Pan",    "Passwor0", "55555555", "2015555589", "email@email.com", true]));
 }
 
 function getData() {
