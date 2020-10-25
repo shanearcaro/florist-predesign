@@ -1,0 +1,69 @@
+body {
+    background: #1785b1;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 5rem;
+}
+
+.container {
+    background: white;
+    width: 25%;
+    padding-bottom: 2.5rem;
+    border-radius: 2%;
+    margin: auto;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7rem;
+    padding-bottom: 2rem;
+}
+
+.form_input {
+    padding-left: 2.5rem;
+    
+}
+
+.form_input input {
+    display: flex;
+    border: none;
+    border-bottom: 3px inset #EBE9ED;
+    width: 23rem;
+    margin-bottom: 2rem;
+    text-indent: 5px;
+}
+
+.required_text {
+    color: red;
+    font-size: .75rem;
+}
+
+.form_checkbox {
+    padding-left: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.dropdown {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 4rem;
+}
+
+.dropdown label {
+    padding-right: .5rem;
+}
+
+.buttons {
+    margin-left: 1.5rem;
+}
+
+.buttons button {
+    background-color: rgb(25, 165, 25);
+    color: white;
+    border: none;
+    padding: .5rem;
+    width: 30%;
+    margin-left: 3rem;
+}
